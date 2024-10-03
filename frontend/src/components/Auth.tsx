@@ -15,7 +15,7 @@ const Auth = ({ type }: { type: "signup" | "signin" }) => {
 
   useEffect(() => {
     if (
-      postInputs.email === "two@gmail.com" &&
+      postInputs.email === "yashkelhe30@gmail.com" &&
       postInputs.password === "yashkelhe"
     ) {
       authFunction();
@@ -23,7 +23,7 @@ const Auth = ({ type }: { type: "signup" | "signin" }) => {
   }, [postInputs]);
 
   const demoLogin = async () => {
-    setPostInputs({ email: "two@gmail.com", password: "yashkelhe" });
+    setPostInputs({ email: "yashkelhe30@gmail.com", password: "yashkelhe" });
   };
 
   const authFunction = async () => {
